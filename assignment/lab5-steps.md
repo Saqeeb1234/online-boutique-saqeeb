@@ -19,3 +19,5 @@
 5. **Test the above configuration**
  
     ```curl -H "Host:onlineboutique.example.com" --resolve "onlineboutique.example.com:443:$INGRESS_IP" --cacert example.com "https://onlineboutique.example.com:443"```
+    
+6. **Add .crt and .key files in the ingress gateway,refer lab5.yaml file**
